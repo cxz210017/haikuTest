@@ -9,10 +9,6 @@ background-color: black;
 color: whitesmoke;
 font-size: 5rem;
 overflow: hidden;
-background: url("../img/flames.gif");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
 .grid-container {
 display:grid;
@@ -27,4 +23,16 @@ border-bottom: 2px solid rgb(220, 200, 180);
 html {
 	width: 100;
 	height: 100;
+}
+body {
+margin: 1rem;
+background-color: black;
+color: whitesmoke;
+font-size: 5rem;
+overflow: hidden;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+transition-property: transform;
+transition-duration: 3s;
 }
